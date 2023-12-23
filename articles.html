@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleproduits.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="scriptarticles.js"></script>
+    <title>articles</title>
+</head>
+<body>
+    <div class="livraison"> <P>Livraison gratuite a partir de 100DT d'achat</P> </div>
+    <nav class="navbar">
+        <div class="menuL">
+          <div class="log"><a href="index.html"><img src="yucca.png" alt="photologo"></a></div>
+       <div class="inpt"><input type="text" placeholder="vous cherchez quelque chose?"></div>
+    </div>
+       <div class="menuR">
+       <a href="articles.html"><div>Nos Articles</div></a>
+       <a href="plantes.html"> <div>Plantes</div>
+    
+         </a>
+       <a href="deco.html"><div>Decoration interieur</div></a>
+              <a href="contact.html"><div>Contact</div></a>
+       <div><a href=""><img src="panierb.png" alt="" id="chariot"> </div></a>
+        <div><span id="nombrePanier">0</span></p></div> 
+    </div>
+    </nav>
+
+    <div class="espace1">
+      <div class="filtre">
+        <label for="filtre">Filtrer par :</label>
+        <select id="filtre" onchange="appliquerFiltre()">
+          <option value="tous">Tous</option>
+          <option value="p">Pots Seulement</option>
+          <option value="petp">Pots&Plantes</option>
+        
+        </select>
+          
+    </div>
+    <div class="ligne"></div>
+    </div>
+
+    <div class="containerproduits">
+       
+      <div class="item item1" data-categorie="petp"><a href=""><img src="img15.jpg" alt=""></a>
+        <div><ul>
+            <li>Dimensions pot: 15/15cm</li>
+        <li>plante:Ficus Elastica </li>
+        <li>Prix:40dt</li>
+        <button type="button" class="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-2 py-2.5 text-center me-2 mb-2 pt-2 mt-5">commander</button>
+
+    </div>
+
+    </div>
+
+
+      <div class="item item2" data-categorie="petp"><a href=""><img src="img3.jpg" alt=""></a>
+        <div><ul>
+          <li>Dimensions pot: 15/15cm</li>
+      <li>plante:Ficus Elastica </li>
+      <li>Prix:40dt</li>
+      <button type="button" class="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-2 py-2.5 text-center me-2 mb-2 pt-2 mt-5">commander</button>
+
+  </div></div>
+      <div class="item item3">
+        <a href=""><img src="img4.jpg" alt="" data-categorie="p"></a>
+        <div><ul>
+          <li>Dimensions pot: 15/15cm</li>
+      <li>plante:Ficus Elastica </li>
+      <li>Prix:40dt</li>
+      <button type="button" class="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-2 py-2.5 text-center me-2 mb-2 pt-2 mt-5">commander</button>
+
+  </div></div>
+      <div class="item item4" data-categorie="p"><a href=""><img src="img5.jpg" alt=""></a>
+        <div><ul>
+          <li>Dimensions pot: 15/15cm</li>
+      <li>plante:Ficus Elastica </li>
+      <li>Prix:40dt</li>
+      <button type="button" class="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-2 py-2.5 text-center me-2 mb-2 pt-2 mt-5">commander</button>
+
+  </div>
+  
+</div>
+      <div class="item item5"><img src="img8.jpg" alt="" data-categorie="petp">
+        <div><ul>
+          <li>Dimensions pot: 15/15cm</li>
+      <li>plante:Ficus Elastica </li>
+      <li>Prix:40dt</li>
+      <button type="button" class="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-2 py-2.5 text-center me-2 mb-2 pt-2 mt-5">commander</button>
+
+  </div></div>
+      <div class="item item6" data-categorie="p"><img src="img9.jpg" alt="" >
+        <div><ul>
+          <li>Dimensions pot: 15/15cm</li>
+      <li>plante:Ficus Elastica </li>
+      <li>Prix:40dt</li>
+      <button type="button" class="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-2 py-2.5 text-center me-2 mb-2 pt-2 mt-5">commander</button>
+
+  </div></div>
+      <div class="item item7" data-categorie="petp"><img src="img10.jpg" alt="">
+        <div><ul>
+          <li>Dimensions pot: 15/15cm</li>
+      <li>plante:Ficus Elastica </li>
+      <li>Prix:40dt</li>
+      <button type="button" class="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-2 py-2.5 text-center me-2 mb-2 pt-2 mt-5">commander</button>
+
+  </div></div>
+      <div class="item item8" data-categorie="p"><img src="img11.jpg" alt="">
+        <div><ul>
+          <li>Dimensions pot: 15/15cm</li>
+      <li>plante:Ficus Elastica </li>
+      <li>Prix:40dt</li>
+      <button type="button" class="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-2 py-2.5 text-center me-2 mb-2 pt-2 mt-5">commander</button>
+
+  </div></div>
+      <div class="item item9" data-categorie="petp"><img src="img12.jpg" alt="">
+        <div><ul>
+          <li>Dimensions pot: 15/15cm</li>
+      <li>plante:Ficus Elastica </li>
+      <li>Prix:40dt</li>
+      <button type="button" class="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-2 py-2.5 text-center me-2 mb-2 pt-2 mt-5">commander</button>
+
+  </div></div>
+      <div class="item item10" data-categorie="petp"><img src="img13.jpg" alt="">
+        <div><ul>
+          <li>Dimensions pot: 15/15cm</li>
+      <li>plante:Ficus Elastica </li>
+      <li>Prix:40dt</li>
+      <button type="button" class="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-2 py-2.5 text-center me-2 mb-2 pt-2 mt-5">commander</button>
+
+  </div></div>
+      <div class="item item11"data-categorie="petp"><img src="240713362_368944961550190_60258290545838220_n.jpg" alt="">
+        <div><ul>
+          <li>Dimensions pot: 15/15cm</li>
+      <li>plante:Ficus Elastica </li>
+      <li>Prix:40dt</li>
+      <button type="button" class="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-2 py-2.5 text-center me-2 mb-2 pt-2 mt-5">commander</button>
+
+  </div></div>
+      <div class="item item12" data-categorie="petp"><img src="trio (2).jpg" alt="">
+        <div><ul>
+          <li>Dimensions pot: 15/15cm</li>
+      <li>plante:Ficus Elastica </li>
+      <li>Prix:40dt</li>
+      <button type="button" class="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-2 py-2.5 text-center me-2 mb-2 pt-2 mt-5">commander</button>
+
+  </div></div>
+      <div class="item item13" data-categorie="petp"><img src="duo.jpg" alt="">
+        <div><ul>
+          <li>Dimensions pot: 15/15cm</li>
+      <li>plante:Ficus Elastica </li>
+      <li>Prix:40dt</li>
+      <button type="button" class="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-2 py-2.5 text-center me-2 mb-2 pt-2 mt-5">commander</button>
+
+  </div></div>
+      <div class="item item14" data-categorie="petp"><img src="391730222_725137276296522_3152753714053237180_n.jpg" alt="">
+        <div><ul>
+          <li>Dimensions pot: 15/15cm</li>
+      <li>plante:Ficus Elastica </li>
+      <li>Prix:40dt</li>
+      <button type="button" class="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-2 py-2.5 text-center me-2 mb-2 pt-2 mt-5">commander</button>
+
+  </div></div>
+      <div class="item item15" data-categorie="petp"><img src="img14.jpg" alt="">
+        <div><ul>
+          <li>Dimensions pot: 15/15cm</li>
+      <li>plante:Ficus Elastica </li>
+      <li>Prix:40dt</li>
+      <button type="button" class="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-2 py-2.5 text-center me-2 mb-2 pt-2 mt-5">commander</button>
+
+  </div></div>
+      <div class="item item16" data-categorie="petp"><img src="trio.jpg" alt="">
+        <div><ul>
+          <li>Dimensions pot: 15/15cm</li>
+      <li>plante:Ficus Elastica </li>
+      <li>Prix:40dt</li>
+      <button type="button" class="text-gray-900 bg-gradient-to-r from-teal-200 to-lime-200 hover:bg-gradient-to-l hover:from-teal-200 hover:to-lime-200 focus:ring-4 focus:outline-none focus:ring-lime-200 dark:focus:ring-teal-700 font-medium rounded-lg text-sm px-2 py-2.5 text-center me-2 mb-2 pt-2 mt-5">commander</button>
+
+  </div></div>
+
+    </div>
+
+
+  </div>
+  <div class="espace"></div>
+
+
+
+
+<div class="footer">
+<div class="logofooter">
+    <img src="yucca.png" alt="">
+</div>
+<div class="mnft">
+    <p>Suivez nous sur</p>
+    <img src="iconfbw.png" alt="">
+    <img src="iconinstaw.png" alt="">
+    <img src="icontwitterw.png" alt="">
+    <img src="iconlinkedinw.png" alt="">
+    
+    
+</div>
+</div>
+    
+</body>
+</html>

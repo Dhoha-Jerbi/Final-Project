@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panier</title>
+</head>
+<body>
+  <h2>Panier</h2>
+  <ul id="panierListe"></ul>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Récupérer les données du localStorage
+      let panier = JSON.parse(localStorage.getItem('panier')) || [];
+
+      // Afficher les données dans la liste du panier
+      const panierListe = document.getElementById('panierListe');
+      panier.forEach(item => {
+        const listItem = document.createElement('li');
+        listItem.innerHTML = `<img src="${item.image}" alt="${item.detail}"> ${item.detail}`;
+        panierListe.appendChild(listItem);
+      });
+    });
+  </script>
+</body>
+</html>

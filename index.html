@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="scriptindex.js"></script>
+    <title>page d'acceuil</title>
+</head> 
+<body>
+    <div class="livraison"> <P>Livraison gratuite a partir de 100DT d'achat</P> </div>
+    <nav class="navbar">
+        <div class="menuL">
+       <div class="log"><a href="index.html"><img src="yucca.png" alt="photologo"></a></div>
+       <div class="inpt"><input type="text" placeholder="vous cherchez quelque chose?"></div>
+    </div>
+       <div class="menuR">
+       <div><a href="articles.html">Nos Articles</div></a>
+       
+    <div><a href="plantes.html">Plantes</div></a>
+       <div><a href="deco.html">Decoration interieur </div></a>
+       <div><a href="contact.html">Contact</div></a>
+       <div><a href=""><img src="panierb.png" alt="" id="chariot"> </div></a>
+        <div><span id="nombrePanier">0</span></p></div> 
+    </div>
+    </nav>
+
+
+<div class="contenu1">
+     
+    <div class="txtnat">
+        <h1><p id="p1">Nature</p>
+            <p id="p2">EVERYWHERE</p> </h1> 
+        <a href="articles.html"><p id="p3"><button value="commander">Shop now</button></p></a></div>
+</div>
+
+<a href=""><div class="discount-alert">
+  <div><img src="offrenoel.jpg" alt=""></div>
+  <p>Offre spéciale de fin d'année !</p>
+  <p>Profitez d'une réduction sur une selection d'articles  </p>
+  <p>Voir Plus</p>
+  <div id="countdown"></div>
+</div></a>
+<div class="espace"></div>
+<h1 id="recherche">Recherche par Catégorie</h1> 
+<div class="contgrid">
+    
+
+    <div class="grid1"> <div class="int"><p><a href="plantes.html">Plantes interieur </a></p></div></div>
+    <div class="grid2"></div>
+    <div class="grid3">
+        <div class="petp"><p><a href="articles.html">Pots & Plantes</a> </p></div>
+    </div>
+    <div class="grid4"><div class="ext"><p><a href="deco.html">Conseils & entretien</a></p></div></div>
+    
+    
+    </div>
+    
+    <div class="espace"></div>
+<h1 id="nouv">Decouvrez la Nouvelle collection </h1>
+<div class="espace"></div>
+
+
+</div>
+<div class="contenu2">
+<div class="item item1">
+    <div class="articles">
+        <div class="article" onmouseover="afficherCommander(this)" onmouseout="cacherCommander(this)">
+          <img src="img1.jpg" alt="Nom de l'article">
+          <button class="bouton-commander" onclick="ajouterAuPanier()">Commander</button>
+        </div>
+      </div>
+</div>
+<div class="item item2"></div>
+<div class="item item3">
+    <div class="articles">
+        <div class="article" onmouseover="afficherCommander(this)" onmouseout="cacherCommander(this)">
+          <img src="img14.jpg" alt="Nom de l'article">
+          <button class="bouton-commander" onclick="ajouterAuPanier()">Commander</button>
+        </div>
+      </div>
+</div>
+<div class="item item4"></div>
+<div class="item item5">
+    <div class="articles">
+        <div class="article" onmouseover="afficherCommander(this)" onmouseout="cacherCommander(this)">
+          <img src="img15.jpg" alt="Nom de l'article">
+          <button class="bouton-commander" onclick="ajouterAuPanier()">Commander</button>
+        </div>
+      </div>
+</div>
+<div class="item item6"></div>
+<div class="item item7">
+    <div class="articles">
+        <div class="article" onmouseover="afficherCommander(this)" onmouseout="cacherCommander(this)">
+          <img src="img4.jpg" alt="Nom de l'article">
+          <button class="bouton-commander" onclick="ajouterAuPanier()">Commander</button>
+        </div>
+      </div>
+</div>
+<div class="item item8"></div>
+<div class="item item9">
+    <div class="article-contenu" onmouseover="hover(this)" onmouseout="unhover(this)">
+        <img class="article-image" src="img15.jpg" alt="Article à vendre">
+        <button class="boutoncmd" onclick="commander()">Commander</button>
+      </div>
+</div>
+<div class="item item10"></div>
+<div class="item item11">
+    <div class="articles">
+        <div class="article" onmouseover="afficherCommander(this)" onmouseout="cacherCommander(this)">
+          <img src="img5.jpg" alt="Nom de l'article">
+          <button class="bouton-commander" onclick="ajouterAuPanier()">Commander</button>
+        </div>
+      </div>
+</div>
+<div class="item item12"></div>
+<div class="item item13">
+    <div class="articles">
+        <div class="article" onmouseover="afficherCommander(this)" onmouseout="cacherCommander(this)">
+          <img src="img10.jpg" alt="Nom de l'article">
+          <button class="bouton-commander" onclick="ajouterAuPanier()">Commander</button>
+        </div>
+      </div>
+</div>
+<div class="item item14"></div>
+<div class="item item15">
+    <div class="articles">
+        <div class="article" onmouseover="afficherCommander(this)" onmouseout="cacherCommander(this)">
+          <img src="img13.jpg" alt="Nom de l'article">
+          <button class="bouton-commander" onclick="ajouterAuPanier()">Commander</button>
+        </div>
+      </div>
+</div>
+
+
+</div>
+
+<div class="espace"></div>
+
+<div class="services">
+    
+    <div class="liv">
+    <img src="livraison.png" alt="livraison">
+    <p>Livraison a domicile de 03 a 05jours </p></div>
+
+
+<div class="paiement">
+    <img src="paiement.png" alt="">
+    <p>Paiement a la livraison </p>
+</div>
+<div class="retour">
+
+    <img src="retour.png" alt="">
+    <p>Retour colis en cas d'edomagement du produit </p>
+</div>
+
+</div>
+<div class="espace"></div>
+
+
+
+
+<div class="footer">
+<div class="logofooter">
+    <a href="index.html"><img src="yucca.png" alt=""></a>
+</div>
+<div class="mnft">
+    <p>Suivez nous sur</p>
+   <a href="https://www.facebook.com/search/top?q=yucca"><img src="iconfbw.png" alt=""></a> 
+   <a href=""><img src="iconinstaw.png" alt=""></a> 
+   <a href=""> <img src="icontwitterw.png" alt=""></a>
+   <a href=""><img src="iconlinkedinw.png" alt=""></a> 
+    
+    
+</div>
+</div>
+
+
+
+
+
+
+    
+</body>
+</html>

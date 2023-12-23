@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produits</title>
+</head>
+<body>
+  <div>
+    <h2>Produit 1</h2>
+    <img src="produit1.jpg" alt="Produit 1">
+    <p>Description du produit 1...</p>
+    <button onclick="ajouterAuPanier('produit1.jpg', 'Produit 1')">Commander</button>
+  </div>
+
+  <div>
+    <h2>Produit 2</h2>
+    <img src="produit2.jpg" alt="Produit 2">
+    <p>Description du produit 2...</p>
+    <button onclick="ajouterAuPanier('produit2.jpg', 'Produit 2')">Commander</button>
+  </div>
+
+  <!-- Ajoutez autant de produits que nécessaire -->
+
+  <script>
+    function ajouterAuPanier(image, detail) {
+      // Stocker les données dans le localStorage
+      let panier = JSON.parse(localStorage.getItem('panier')) || [];
+      panier.push({ image, detail });
+      localStorage.setItem('panier', JSON.stringify(panier));
+
+      // Rediriger vers la page du panier
+      window.location.href = 'panier.html';
+    }
+  </script>
+</body>
+</html>

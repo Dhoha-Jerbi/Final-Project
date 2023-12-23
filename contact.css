@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Dosis&family=Exo:ital,wght@1,500&family=Kalnia:wght@300;400&family=Montserrat:wght@500&family=Nunito+Sans:opsz,wght@6..12,300&family=Salsa&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Montserrat:wght@500&family=Varela+Round&display=swap');
+
+body {
+
+    width:100%;
+    margin:auto;
+    padding:auto;
+    background-color: antiquewhite;
+/*background:url(cactus.jpg);
+background-size:cover;
+background-attachment: fixed;*/
+}
+
+    /**barre de navigation**/
+    .livraison {
+        height:25px;
+        width:100%;
+        background-color:yellowgreen;
+        color:black;
+        text-align:center;
+        padding-top:0px;
+        font-size: 13px;
+       
+    }
+
+    .log{
+        height:80px;
+        width:150px;
+    }
+.navbar{
+    display:flex;
+    flex-direction:row;
+    gap:50px;
+    justify-content:space-around;
+    align-items: center;
+    background-color:rgba(62, 60, 60);
+  
+    width:100vw;
+    color:white;
+  
+
+
+}
+#chariot {
+    height:30px;
+    width: 30px;
+  }
+  
+.menuL{
+    display:flex;
+  align-items:center;
+  gap:30px;
+    
+     
+
+}
+.menuR{
+    display:flex;
+    flex-direction:row;
+    gap:15px;
+    
+}
+.inpt input{
+    
+    width:250px;
+    border-radius:20px;
+    height:25px;
+ }
+
+/**footer**/
+.footer{
+    height:200px;
+    width:99vw;
+    background-color:rgba(62, 60, 60);;
+    display:flex;
+    justify-content:space-around;
+    
+
+}
+.logofooter img {
+    height:150px;
+    width:250px;
+}
+.mnft {
+    display:flex;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.mnft img{
+    height:30px;
+    width:30px;
+}
+/**fin footer**/
+
+/**formulaire**/
+input , textarea{
+    border: solid 1px;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+
+}
+.entete {
+    font-size:55px;
+    text-align:center;
+}
+
+.formul {
+    height:700px;
+    width:600px;
+    
+    
+    margin:auto;
+    padding: auto;
+    padding-top: 60px;
+}
+
+
+label {
+    font-size: 16px;
+    font-weight:bolder
+}
+input {
+    height:40px;
+    border-radius:5px;
+
+}
+textarea{
+    border-radius:5px;
+}
+
+.bouttons {
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    padding-top:20px;
+}

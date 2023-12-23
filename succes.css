@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Dosis&family=Exo:ital,wght@1,500&family=Kalnia:wght@300;400&family=Montserrat:wght@500&family=Nunito+Sans:opsz,wght@6..12,300&family=Salsa&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Montserrat:wght@500&family=Varela+Round&display=swap');
+
+body {
+
+    width:100%;
+    margin:auto;
+    padding:auto;
+}
+    
+
+    .cont{
+        height:500px;
+        width:600px;
+      
+        padding:auto;
+        margin: auto;
+        margin-top:250px;
+        font-family:dosis;
+
+    }
+
+    .cont h1 {
+        font-size: 50px;
+        text-align:center;
+
+    }
+    .cont p {
+        text-align:center;
+    }
